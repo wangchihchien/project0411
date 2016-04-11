@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.wrap{
+	width: 800px;
+	margin: 0 auto;
+
+}
+
+.header{
+	font-weight: bolder;
+
+	width: 800px;
+	height: 100px;
+	margin: 0 auto;
+	border-bottom:#DDDDDD 1px solid; 
+}
+
+img#logo{
+	position: absolute;
+}
+
+.header li{
+	width: 80px;
+	float: right;
+	font-family: arial;
+	font-size: 10px;
+	color: black;
+	margin: 5px;
+	text-decoration: none;
+}
+
+.content{
+	width: 800px;
+	margin-top: 10px;
+	line-height: 20px; 
+	text-align: left;
+}
+
+.text{
+	text-overflow: ellipsis;
+	float: left;
+	width: 500px;
+	font-size: 15px;
+	padding: 5px 10px 10px 0px;
+	font-family: arial;
+}
+
+.demo{
+	float: right;
+	border: #DDDDDD 1px solid;
+	width: 260px;
+	height: 180px;
+	box-shadow: ;
+}
+
+.Couches{
+	font-size: 10px;
+	font-family:arial;
+	text-align: center;
+
+}
+
+.content h1{
+	font-family: arial;
+	text-decoration: underline;
+ 	color:#0072E3;
+ 	font-size: 25px;
+
+ 
+}
+
+.clear{
+	clear: both;
+}
+
+.product{
+	width: 800px;
+	border-top: #DDDDDD 1px solid;
+	padding-left:30px; 
+
+}
+
+.product li{
+	float: left;
+	display: block;
+	margin: 10px 10px 5px 10px ;
+	border-radius: 10px;
+	font-family: arial;
+	padding: 10px 15px 20px 15px;
+	text-align: center;
+	width: 210px;
+	border:#DDDDDD 1px solid;
+	text-decoration: none;
+	position: relative;
+}	
+
+.black {
+	font-family: arial;
+	color: #000000;
+	font-size: 13px;
+}
+
+.product h3{
+	color:#5B5B5B;
+	font-size: 18px;
+	font-weight: bolder;
+}
